@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cubs Book Store</title>
+    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="icon" href="/images/scale.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/0f2a044237.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--header section-->
+
+    <header class="header-1">
+
+      <div class="logo">
+        <a href="#"><img src="/images/download.png" /></a>
+        <a href="#">cubs bookstore</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#featured">BOOKS</a>
+        <a href="#reviews">REVIEWS</a>
+        <a href="#blogs">BLOG</a>
+        <a href="#footer">CONTACT</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+     </div>
+
+    <form action="" class="search-form">
+      <input type="search" name="" placeholder="search for books..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+   </form>
+
+    </header>
+
+    <!--frontpage-->
+
+    <section class="header">
+      <div class="text-box">
+        <h1>Coffee With Papers</h1>
+        <p>A book is a dream that you hold in your hands</p>
+        <h2>True Stories!</h2>
+        <br /><a href="#home" class="design">Visit Us To Know More</a>
+      </div>
+    </section>
+
+    <!--login form-->
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+      <form id="login">
+        <h3>sign in form</h3>  
+        <span>Email</span>
+         <input
+          type="text" required="required"
+          class="box" autofocus
+          placeholder="Enter Email "
+          />
+          <span>Password</span>
+          <input
+          type="password" class="box" required="required"
+          placeholder="Enter Password"
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="Sign in" class="btn" />
+        <p>Forget password ? <a id="linkforgetpassword">click here</a></p>
+        <div class="login">or sign in with</div>
+        <div class="link">
+          <div class="facebook">
+            <a href="https://facebook.com"><i class="fab fa-facebook-f"><b>facebook</b></i></a>
+          </div>
+          <div class="instagram">
+            <a href="https://instagram.com"><i class="fab fa-instagram"><b>instagram</b></i></a>
+          </div>
+        </div>
+        <p>
+          Don't have an account ?
+          <a id="linkcreateAccount">sign up now</a>
+        </p>
+      </form>
+
+      <form class="form--hidden" id="createAccount">
+        <h3>sign up form</h3>
+        <span>Full Name</span>
+        <input
+        type="text"  required="required" class="box" placeholder="Enter Full Name" />
+        <span>Email</span>
+        <input type="email" required="required" class="box" placeholder="Enter Email" />
+        <span>Password</span>
+            <input
+            type="password" class="box" required="required"
+            placeholder="Enter Password"
+          />
+        <span>Confirm Password</span>
+            <input
+            type="password" class="box" required="required"
+            placeholder="Confirm Password"
+          />
+        <input type="submit" value="Sign up" class="btn" />
+        <p>
+          Already have an account ?
+          <a id="linklogin">Sign in</a>
+        </p>
+      </form>
+
+      <!-- <form class="form--hidden" id="forgetpassword">
+        <h3>forget password</h3>
+        <span>enter new password</span>
+        <input
+          type="password" required="required"
+          class="box"
+          autofocus
+          placeholder="new password"
+        />
+        <input type="password" required="required" class="box" placeholder="confirm password" />
+        <input type="submit" value="continue" class="btn" />
+        <p><a id="linklogin">Go back</a></p>
+      </form> -->
+    </div>
+
+    <!--home-->
+    <section class="home" id="home">
+      <div class="row-home">
+        <div class="content">
+          <h3>upto 70% off</h3>
+          <h4>There is No Friend As Loyal as a Book.</h4>
+          <p>
+            One glance at a book and you hear the voice of another
+            person,perhaps someone dead for 1,000 years. To read is to voyage
+            through time.
+          </p>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="swiper book-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"><img src="/images/b1.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/b2.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/b3.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/b4.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/b5.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/b6.jpg" /></a>
+            <a href="#" class="swiper-slide"><img src="/images/lore.jpeg" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--books-->
+
+    <section class="section__container property__container" id="property">
+      <h1 class="heading"><span>featured books</span></h1>
+    
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+    
+        <ul class="carousel">
+
+          <div class="box">
+            <div class="image">
+              <img src="/images/lake.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>ann patchett</h3>
+              <div class="price">$24.99 <span>$30.99</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/wis.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>the wispers</h3>
+              <div class="price">$20.99 <span>$40.00</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/jem.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>canary girls</h3>
+              <div class="price">$10.99 <span>$20.00</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/hoff.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>the invincible hour</h3>
+              <div class="price">$20.99 <span>$30.99</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/peak.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>peaky blinders</h3>
+              <div class="price">$5.99 <span>$10.99</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/sunset.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>the sunset crowd</h3>
+              <div class="price">$20.99 <span>$30.99</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="/images/all.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <h3>gold stars</h3>
+              <div class="price">$15.00 <span>$30.99</span></div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+    
+        </ul>
+    
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+
+    <!--newsletter-->
+    <section class="newsletter">
+      <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="text" required="required" autofocus
+        placeholder="full name" class="box">
+        <input
+          type="email" required="required"
+          name=""
+          placeholder="enter your email"
+          id=""
+          class="box"
+        />
+        <input type="submit" value="Subscribe" class="btn-1" />
+      </form>
+    </section>
+
+    <!--reviews-->
+    <section class="reviews" id="reviews">
+      <h1 class="heading"><span>client's reviews</span></h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/images/pic1.jpg" alt="" />
+            <h3>Richard Lawson</h3>
+            <p class="text">Book : Where the Crawdads Sing</p>
+            <p>
+              Delia Owens transports you to the marshes of North Carolina with her lyrical prose. The mystery, the vivid setting, and
+              the unforgettable characters make this a literary gem.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/images/pic2.jpg" alt="" />
+            <h3>john asare</h3>
+            <p class="text">Book : The Midnight Library</p>
+            <p>
+              Matt Haig’s exploration of regrets and alternate lives is beautifully written. The concept of the Midnight Library is
+              both thought-provoking and heartwarming. 
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/images/pic3.jpg" alt="" />
+            <h3>rachel michealson</h3>
+            <p class="text">Book : The Light Between Oceans</p>
+            <p>
+              M.L. Stedman’s novel is a heart-wrenching story set on a remote Australian island. The moral dilemmas faced by the
+              characters are profound and thought-provoking.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/images/pic4.jpg" alt="" />
+            <h3>tariq</h3>
+            <p class="text">Book : Educated</p>
+            <p>
+              Tara Westover’s memoir is a powerful testament to resilience and the pursuit of education against all odds. Her journey
+              from an isolated upbringing to academic success is inspiring.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/images/pic5.jpg" alt="" />
+            <h3>ron lach</h3>
+            <p class="text">Book : The Enigma of Time</p>
+            <p>
+              Evelyn Harper’s blend of science fiction and mystery kept me hooked from start to finish. The intricate plot twists left
+              me guessing until the very end. A must-read for fans of both genres!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/images/scale.webp" alt="" />
+            <h3>annabel</h3>
+            <p class="text">Book : The Nightingale </p>
+            <p>
+              Kristin Hannah’s historical fiction masterpiece set during World War II is an emotional rollercoaster. The bond between
+              the two sisters, their courage, and the sacrifices they make will stay with you.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--blogs-->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading"><span>our blogs</span></h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="/images/link.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>literary hub</h3>
+              <p>
+                this book blog has everything you need to keep up to date with the literary world, 
+                plus some news and culture on the side.  
+              </p>
+              <a href="https://lithub.com/" class="btn-1">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="/images/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>49th shelf</h3>
+              <p>
+                this site calls itself "the largest collection of canadian books on the internet".
+                no kidding! the site is extremly comprehensive but also very easy to navigate.
+              </p>
+              <a href="https://49thshelf.com/" class="btn-1">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="/images/orangutan.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>the orangutan librarian</h3>
+              <p>this blog stands out not only for its unique name and concept but also for its color
+                 and charming sketches here and there</p>
+              <a href="https://theorangutanlibrarian.wordpress.com/" class="btn-1">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="/images/under.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>under the covers</h3>
+              <p>
+                book reviews,author interviews,giveaways! books have the power to unite people and
+                 that is exactly what happened with us! our love for books have brought us together 
+                 and we've become good friends in a short amount of time.
+              </p>
+              <a href="https://www.underthecoversbookblog.com/" class="btn-1">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="/images/pink-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>smart bitches, trashy books</h3>
+              <p>
+                smart bitches, trashy books is a community of romance readers eager to talk about which
+                romance novels rocked their worlds, and which ones made them throw the book.
+              </p>
+              <a href="https://smartbitchestrashybooks.com/" class="btn-1">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Our services</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <br>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order status</a></li>
+              <li><a href="#">Payment options</a></li>
+            </ul>
+          </div>
+          <br>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-icons">
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://instagram.com/snipes_8732"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://google.com"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>contact info</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-phone"></i> +233-59-588-5239
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-phone"></i> +233-53-210-9896
+                </a>
+              </li>
+              <li>
+                <a href="mailto:mrwolf8732@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i>
+                  mrwolf8732@gmail.com
+                </a>
+              </li>
+              <li><img src="/images/worldmap.png" alt="worldmap" /></li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+      <div class="credit">
+        created by <span>mr.wolf</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <!--loader-->
+
+    <div class="loader-container">
+      <img src="/images/loader-img.gif" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      window.onload = () => {
+        fadeOut();
+      };
+
+      function loader() {
+        document.querySelector(".loader-container").classList.add("active");
+      }
+
+      function fadeOut() {
+        setTimeout(loader, 1000);
+      }
+
+      let loginForm = document.querySelector(".login-form-container");
+
+      document.querySelector("#login-btn").onclick = () => {
+        loginForm.classList.toggle("active");
+      };
+
+      document.querySelector("#close-login-btn").onclick = () => {
+        loginForm.classList.remove("active");
+      };
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const loginForm = document.querySelector("#login");
+        const createAccountForm = document.querySelector("#createAccount");
+
+        document
+          .querySelector("#linkcreateAccount")
+          .addEventListener("click", (e) => {
+            e.preventDefault();
+            loginForm.classList.add("form--hidden");
+            createAccountForm.classList.remove("form--hidden");
+          });
+
+        document.querySelector("#linklogin").addEventListener("click", (e) => {
+          e.preventDefault();
+          loginForm.classList.remove("form--hidden");
+          createAccountForm.classList.add("form--hidden");
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const loginForm = document.querySelector("#login");
+        const forgetpasswordForm = document.querySelector("#forgetpassword");
+
+        document
+          .querySelector("#linkforgetpassword")
+          .addEventListener("click", (e) => {
+            e.preventDefault();
+            loginForm.classList.add("form--hidden");
+            forgetpasswordForm.classList.remove("form--hidden");
+          });
+
+        document.querySelector("#linklogin").addEventListener("click", (e) => {
+          e.preventDefault();
+          loginForm.classList.remove("form--hidden");
+          forgetpasswordForm.classList.add("form--hidden");
+        });
+
+      });
+
+      var swiper = new Swiper(".book-slider", {
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".reviews-slider", {
+        spaceBetween: 10,
+        grabCursor: true,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".featured-slider", {
+        centeredSlides: true,
+      });
+
+      var swiper = new Swiper(".blogs-slider", {
+        spaceBetween: 10,
+        grabCursor: true,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 8000,
+          disableOnInteraction: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      const wrapper = document.querySelector(".wrapper");
+        const carousel = document.querySelector(".carousel");
+        const firstCardWidth = carousel.querySelector(".box").offsetWidth;
+        const arrowBtns = document.querySelectorAll(".wrapper i");
+        const carouselChildrens = [...carousel.children];
+
+        let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+
+        // Get the number of cards that can fit in the carousel at once
+        let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+
+        // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+        carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+          carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
+
+        // Insert copies of the first few cards to end of carousel for infinite scrolling
+        carouselChildrens.slice(0, cardPerView).forEach(card => {
+          carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+        });
+
+        // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.offsetWidth;
+        carousel.classList.remove("no-transition");
+
+        // Add event listeners for the arrow buttons to scroll the carousel left and right
+        arrowBtns.forEach(btn => {
+          btn.addEventListener("click", () => {
+            carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+          });
+        });
+
+        const dragStart = (e) => {
+          isDragging = true;
+          carousel.classList.add("dragging");
+          // Records the initial cursor and scroll position of the carousel
+          startX = e.pageX;
+          startScrollLeft = carousel.scrollLeft;
+        }
+
+        const dragging = (e) => {
+          if (!isDragging) return; // if isDragging is false return from here
+          // Updates the scroll position of the carousel based on the cursor movement
+          carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+        }
+
+        const dragStop = () => {
+          isDragging = false;
+          carousel.classList.remove("dragging");
+        }
+
+        const infiniteScroll = () => {
+          // If the carousel is at the beginning, scroll to the end
+          if (carousel.scrollLeft === 0) {
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+            carousel.classList.remove("no-transition");
+          }
+          // If the carousel is at the end, scroll to the beginning
+          else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.offsetWidth;
+            carousel.classList.remove("no-transition");
+          }
+
+          // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+          clearTimeout(timeoutId);
+          if (!wrapper.matches(":hover")) autoPlay();
+        }
+
+        const autoPlay = () => {
+          if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+          // Autoplay the carousel after every 2500 ms
+          timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2000);
+        }
+        autoPlay();
+
+        carousel.addEventListener("mousedown", dragStart);
+        carousel.addEventListener("mousemove", dragging);
+        document.addEventListener("mouseup", dragStop);
+        carousel.addEventListener("scroll", infiniteScroll);
+        wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+        wrapper.addEventListener("mouseleave", autoPlay);
+
+        let searchForm = document.querySelector('.header-1 .search-form');
+        let navbar = document.querySelector('.header-1 .navbar');
+
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.toggle('active');
+            searchForm.classList.remove('active');
+            loginForm.classList.remove('active');
+          };
+
+
+        document.querySelector('#search-btn').onclick = () => {
+            searchForm.classList.toggle('active');
+            navbar.classList.remove('active');
+            loginForm.classList.remove('active');
+          };
+
+          window.onscroll = () => {
+              searchForm.classList.remove('active');
+              navbar.classList.remove('active');
+            }
+    </script>
+    <script></script>
+  </body>
+</html>
